@@ -32,3 +32,27 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// Redirects linkedin icon to LinkedIn website
+const linkedinIcon = document.getElementById("linkedin-icon");
+linkedinIcon.addEventListener("click", function () {
+    window.location.href = "https://www.linkedin.com/in/dustinruiz/";
+});
+
+// Redirects github icon to Github website
+const githubIcon = document.getElementById("github-icon");
+githubIcon.addEventListener("click", function () {
+    window.location.href = "https://github.com/thedustinruiz";
+});
+
+// Redirects instagram icon to Instagram account
+const instagramIcon = document.getElementById("instagram-icon");
+instagramIcon.addEventListener("click", function () {
+    window.location.href = "https://instagram.com/thedustinruiz?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr";
+});
+
+// Redirects facebook icon to Facebook account
+const facebookIcon = document.getElementById("facebook-icon");
+facebookIcon.addEventListener("click", function () {
+    window.location.href = "https://www.facebook.com/thedustinruiz/";
+});
